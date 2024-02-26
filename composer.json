@@ -1,0 +1,21 @@
+{
+    "name": "rodrigo/rinha-de-backend-2024-q1",
+    "autoload": {
+        "psr-4": {
+            "Rinha\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Aramburu",
+            "email": "rodrigoaramburu@gmail.com"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "php-di/php-di": "^7.0"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "~5.0.0"
+    }
+}
